@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+body {
+    text-align: center;
+    background-color: #e1bee7; /* เปลี่ยนพื้นหลังเป็นสีม่วงอ่อน */
+    color: #283593; /* สีข้อความเป็นสีน้ำเงินเข้ม */
+    font-family: "Handjet", system-ui;
+}
+
+#board {
+    background-color: #ba68c8; /* เปลี่ยนพื้นหลังเป็นสีม่วง */
+    border-bottom: 20px solid #64b5f6; /* เปลี่ยนเส้นขอบล่างเป็นสีฟ้า */
+}
+
+button {
+    width: 160px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: #f48fb1; /* เปลี่ยนสีปุ่มเป็นสีชมพูอ่อน */
+    font-family: "Handjet", system-ui;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: #9575cd; /* เปลี่ยนสีปุ่มตอน hover เป็นสีม่วงอ่อน */
+    color: #f3e5f5; /* เปลี่ยนสีตัวอักษรตอน hover เป็นสีขาวอมม่วงอ่อน */
+}
